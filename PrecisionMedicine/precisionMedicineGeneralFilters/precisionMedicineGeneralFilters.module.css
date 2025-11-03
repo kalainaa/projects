@@ -1,0 +1,25 @@
+.overall {
+  width: 100%;
+  border-radius: 5px;
+  --spacing-small: 10px;
+  --spacing: 20px;
+}
+
+.title {
+  margin-bottom: var(--spacing-small);
+}
+
+.topFilters {
+  display: flex;
+  gap: var(--spacing-small);
+}
+
+.middleFilters {
+  width: 100%;
+}
+
+.submitButton {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}

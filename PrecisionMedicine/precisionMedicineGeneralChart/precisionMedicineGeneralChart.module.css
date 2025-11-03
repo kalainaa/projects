@@ -1,0 +1,68 @@
+.overall {
+  width: 100%;
+  --spacing-small: 10px;
+  --spacing-regular: 20px;
+  border-radius: 5px;
+}
+
+.title {
+  margin-bottom: var(--spacing-small);
+
+}
+
+.chartContent {
+  width: 100%; 
+  height: 80vh;
+  border-radius: 5px;
+}
+
+.cell {
+  padding: var(--spacing-small) 2px;
+  width: 20vh;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.cellContentTitle {
+  font-weight: bold;
+  padding-right: calc(var(--spacing-small) * 11);
+  white-space: nowrap;
+  position: sticky;
+  height: 4rem;
+  top: 0;
+}
+
+.table {
+  width: 82%; 
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 25px; 
+}
+
+.error {
+  padding: var(--spacing-small);
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.imageLinkContainer a {
+  color: #0070f3; 
+  text-decoration: underline; /* underline link */
+}
+
+.imageLinkContainer a:hover {
+  color: #0056b3; /* dark blue when hovered */
+}
+
+.imageLinkContainer a:active {
+  color: #003d7a; /* darker blue when clicked */
+}
+
+.whatsNextPrecisionButtons {
+  width: 45%;
+  text-align: left; 
+  margin-bottom: 150px;
+}
+
+
