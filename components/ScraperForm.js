@@ -8,8 +8,8 @@ const ScraperForm = ({ setResults }) => {
 
     const fetchFromRustServer = async (url) => {
         try {
-            const response = await axios.post('http://127.0.0.1:7878/api/scrape', { url });
-            return response.data; // Assuming the Rust server returns the scraped data in the expected format
+            const response = await axios.post('http:api', { url });
+            return response.data; // Assuming the Rust server returns the scraped data in the *expected format
         } catch (error) {
             console.error('Error fetching data from Rust server:', error);
             setError('Failed to fetch data from the server. Please try again later.');
