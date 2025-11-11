@@ -1,6 +1,6 @@
 // src/components/Tabs.js
 import React from 'react';
-import Maps from './Maps'; // Correct import for Maps component
+import Maps from './Maps'; 
 
 const Tabs = ({ activeTab, setActiveTab }) => {
     return (
